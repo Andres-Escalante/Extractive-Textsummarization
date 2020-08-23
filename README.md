@@ -4,20 +4,29 @@ Code used for my master thesis, It explores 4 difference methods of extractive t
 
 This code uses 2 datasets:
 - Dataset 1: https://www.kaggle.com/sunnysai12345/news-summary
-- Dataset 2: https://cs.nyu.edu/~kcho/DMQA/ under CNN stories dataset
+- Dataset 2: https://www.tensorflow.org/datasets/catalog/cnn_dailymail or https://cs.nyu.edu/~kcho/DMQA/ both CNN and Daily mail stories
+- Dataset 3: https://www.tensorflow.org/datasets/catalog/multi_news or https://github.com/Alex-Fabbri/Multi-News
 
 The methods explored are:
-1. Word frequency
-2. TextRank
-3. LSA
-4. [Presumm](https://github.com/nlpyang/PreSumm)
+1. Top k sentences (modified lead-3-sentences)
+2. Word frequency
+3. TextRank
+4. Latent Semantic Analysis (LSA)
+5. [Presumm](https://github.com/nlpyang/PreSumm)
 
-There are 4 different notebooks:
-- NombreNotebook1: Methods 1-3 for dataset 1
-- NombreNotebook2: Methods 1-3 for dataset 2
-- NombreNotebook3: Method 4 for dataset 1
-- NombreNotebook4: Method 4 for dataset 2
+There are different notebooks:
+- datasets.ipynb: Initial preprocessing
+- dataset1.ipynb: Methods 1-4 for dataset 1
+- dataset2.ipynb: Methods 1-4 for dataset 2
+- dataset3.ipynb: Methods 1-4 for dataset 3
+- PreSumm.ipynb: Method 5 for all datasets
+
 
 The results are evaluated Using the F1-Score of ROUGUE-1, ROUGE-2 and ROUGE-L
 
-For more details about the code see each specific notebook
+For more details specific notebook and see the report.
+
+The extra code needed have also been included. PresSumm source code from https://github.com/nlpyang/PreSumm with little modifications, stanford-corenlp-full-2018-10-05, PyTLDR library and the datasets as txt files.
+
+Author: Andrés Escalante Ariza
+All references are in the report and the code
