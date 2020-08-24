@@ -1,14 +1,17 @@
+Work in progress, the code will be ready (clean)by first day of september and the report would be uploaded by mid september
+
 # Extractive Text summarization
 
-Code used for my master thesis, It explores 4 difference methods of extractive text summarization in 2 different datasets. The code + commentaries are in the 4 notebooks.
+Code used for my master thesis, It explores 5 difference methods of extractive text summarization in 3 different datasets. The code + commentaries are different notebooks.
+It was developed using google colab with google drive
 
-This code uses 2 datasets:
+This code uses 3 datasets:
 - Dataset 1: https://www.kaggle.com/sunnysai12345/news-summary
 - Dataset 2: https://www.tensorflow.org/datasets/catalog/cnn_dailymail or https://cs.nyu.edu/~kcho/DMQA/ both CNN and Daily mail stories
 - Dataset 3: https://www.tensorflow.org/datasets/catalog/multi_news or https://github.com/Alex-Fabbri/Multi-News
 
 The methods explored are:
-1. Top k sentences (modified lead-3-sentences)
+1. First k sentences (modified lead-3-sentences)
 2. Word frequency
 3. TextRank
 4. Latent Semantic Analysis (LSA)
@@ -19,6 +22,7 @@ There are different notebooks:
 - dataset1.ipynb: Methods 1-4 for dataset 1
 - dataset2.ipynb: Methods 1-4 for dataset 2
 - dataset3.ipynb: Methods 1-4 for dataset 3
+- Preprocessing_PreSumm.ipynb Preprocessing for method PreSumm
 - PreSumm.ipynb: Method 5 for all datasets
 
 
