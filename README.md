@@ -1,4 +1,4 @@
-Work in progress, the code will be ready (clean)by first day of september and the report would be uploaded by mid september
+The report would be uploaded by before 15 of September
 
 # Extractive Text summarization
 
