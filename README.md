@@ -1,4 +1,4 @@
-The report would be uploaded by before 15 of September
+The report would be uploaded before 15 of September
 
 # Extractive Text summarization
 
