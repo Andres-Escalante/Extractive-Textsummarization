@@ -1,5 +1,3 @@
-The report would be uploaded before 15 of September
-
 # Extractive Text summarization
 
 Code used for my master thesis, It explores 5 difference methods of extractive text summarization in 3 different datasets. The code + commentaries are different notebooks.
